@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* form{
+            text-align: center;
+        }  */
+         div{
+            padding-bottom: 10px;
+        }
+        #initial{
+            text-align: center;
+        }
+        label{
+            display: inline-block;
+            text-align: left;
+            width: 120px; 
+            padding-left: 40%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: red;">Employee Registeration Form</h1>
+    <form action="" method="post">
+        <div id="initial">
+            <input type="radio" id="pre" value="Mr" checked>Mr.
+            <input type="radio" id="pre" value="Mrs">Mrs.
+            <input type="radio" id="pre" value="Ms">Ms.
+        </div>
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name">
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="mail1">Mail Address1</label>
+            <input type="email" name="mail1" id="mail1">
+        </div>
+        <div>
+            <label for="mail2">Mail Address2</label>
+            <input type="email" name="mail2" id="mail2">
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <label for="state">State</label>
+            <select name="state" id="state" >
+                <option value="Gujarat">Gujarat</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select>
+        </div>
+        <div>
+            <label for="zip">Zip</label>
+            <input type="number" name="zip" id="zip">
+        </div>
+        <div>
+            <label for="photo">Upload Photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <div>
+            <label for="e_mail">E-Mail</label>
+            <input type="email" name="e_mail" id="e_mail">
+        </div>
+        <div>
+            <label for="ph">Mobile</label>
+            <input type="tel" name="ph" id="ph" placeholder="+91">
+        </div>
+        <div>
+            <label for="language">Languages Known</label>
+            <input type="checkbox" value="Gujarathi" checked>Gujarathi
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-spacing: 30px;
+        }
+        table,td{
+            border: solid black;
+            border-collapse: collapse;
+            min-width: 130px;
+        }
+        label{
+            padding-left: 50px;
+        }
+        input{
+            padding-right: 50px;
+            max-width: 100px;
+        }
+        .a{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Marklist</h1>
+    <ul style="list-style-type: none;padding-left: 0px;">
+        <li><a href="">Home</a></li>
+        <li><a href="">Mark Entry</a></li>
+        <li><a href="">Mark View</a></li>
+        <li><a href="">Logout</a></li>
+    </ul>
+    <p>Mark Entry</p>
+    <table>
+        <form action="" method="post">
+            <tr>
+                <td><label for="reg">Register No:</label></td>
+                <td><input type="number" name="reg" id="reg"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="a">Marks</td>
+            </tr>
+                <tr>
+                    <td><label for="s1">English:</label></td>
+                    <td><input type="text" name="s1" id="s1"></td>
+                </tr>
+                <tr>
+                    <td><label for="s2">Physics:</label></td>
+                    <td><input type="text" name="s2" id="s2"></td>
+                </tr>
+                <tr>
+                    <td><label for="s3">Chemistry:</label></td>
+                    <td><input type="text" name="s3" id="s3"></td>
+                </tr>
+                <tr>
+                    <td><label for="s4">Maths:</label></td>
+                    <td><input type="text" name="s4" id="s4"></td>
+                </tr>
+                <td colspan="2" class="a"><button type="submit">Save</button></td>
+        </form>
+    </table>
+</body>
+</html>

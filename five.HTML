@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Enquiry!!</h1>
+    <fieldset>
+        <legend>Basic details</legend>
+        <form action="" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter the name">
+            </div>
+            <div>
+                <label for="e_mail">Email:</label>
+                <input type="email" name="e_mail" id="e_mail">
+            </div>
+        </fieldset><br>
+        <div>
+            <label for="dob">Birthdate:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div>
+            <label for="phno">Phone:</label>
+            <input type="number" name="phno" id="phno">
+        </div>
+        <div>
+            <label for="married">Are you married:</label>
+            <input type="checkbox" checked>
+        </div>
+            <div>
+                <label for="call">When to call?</label>
+                Morning<input type="radio" name="call" id="call" value="Morning">|
+                Noon<input type="radio" name="call" id="call" value="Noon">|
+                Evening<input type="radio" name="call" id="call" value="Evening">
+            </div>
+            <button type="submit">Send</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: left;
+            /* padding-left: 40%; */
+        }
+         div{
+            padding-bottom: 10px;
+        }
+        label{
+            display: inline-block;
+            text-align: left;
+            width: 120px; 
+            padding-left: 20%;
+        }   
+        .a{
+            text-align: left;
+            width: 120px; 
+            padding-left: 20%;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><u>ADMISSION FORM</u></h1>
+    <hr style="width: 90%;">
+        <form action="" method="post">
+            <div>
+                <label for="name">Name</label>:
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="fname">Father Name</label>:
+                <input type="text" name="fname" id="fname">
+            </div>
+        <div>
+            <label for="dob">DOB</label>:
+            <input type="text" name="dob" id="dob">
+        </div>
+        <div>
+            <label for="dept">Department</label>:
+            <input type="number" name="dept" id="dept">
+        </div>
+        <label for="gender">Gender</label><br>
+        <div class="a">
+            <input type="radio" name="gender" id="gender" value="Male" >Male  <br>
+            <input  type="radio" name="gender" id="gender" value="Female" >Female 
+        </div>
+        <center>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </center>
+    </form>
+</body>
+</html>
